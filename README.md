@@ -1,7 +1,7 @@
 # SPI_W25QXX
 A project to use Winbond EEPROM W25Qxx (W25Q64 in case) on SPI transport with DMA in STM32F103RE microcontroller. Commands transfer with the normal SPI cycles while the data travels by DMA bus.
 
-To provide an accurate short delay, SysTick clang each 10us.
+To provide an accurate short delay, SysTick clangs each 10us.
 Furthermore, in the main cycle, the cron handler is realized, but it has a tiny bug that I did not overwhelm yet.
 The RTC and independent watchdog are triggered.
 
