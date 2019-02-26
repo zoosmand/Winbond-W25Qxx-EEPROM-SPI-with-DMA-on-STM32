@@ -21,4 +21,4 @@ Remember that the EEPROM has to be erased before writing even a byte, herewith t
 
 The erasing function uses the same address parameter as the write/read ones, but it does not take to account bits 4..0 LSB of a page address.
 
-If more than 8/16 sectors are affected by erasing, the erase block command is used. In this case, sector address bits 7..4 LBS are ignored. It means an address parameter is rounded to a block address.
+If more than 8/16 sectors are affected by erasing, the erase block command is used. In this case, sector address bits 7..4 LBS are ignored. It means the address parameter is rounded to a block address.
